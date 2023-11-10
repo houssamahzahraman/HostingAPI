@@ -11,7 +11,7 @@ app.get('/students', function (req, res) {
     {id: 3, name: "ahmad" },
     {id: 4, name: "elia" }
   ]
-    
+  res.send(student)
   
 })
 
